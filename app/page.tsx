@@ -618,7 +618,6 @@ export default function HomePage() {
                 <div style={{
                   fontSize: '2rem',
                   marginBottom: '0.75rem',
-                  display: 'inline-block',
                   background: `${benefit.color}15`,
                   width: '3rem',
                   height: '3rem',
