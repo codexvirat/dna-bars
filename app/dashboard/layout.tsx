@@ -100,7 +100,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 href={link.href}
                 style={{
                   display: 'flex', alignItems: 'center', gap: '0.4rem',
-                  padding: '0.4rem 0.9rem', borderRadius: 'var(--radius-full',
+                  padding: '0.4rem 0.9rem',
                   fontSize: '0.8rem', fontWeight: isActive ? 700 : 500,
                   color: isActive ? 'var(--gold-300)' : 'var(--text-muted)',
                   background: isActive ? 'rgba(201,162,39,0.1)' : 'transparent',
